@@ -1,0 +1,18 @@
+[project]
+name = "demoday"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asgiref==3.7.2",
+    "django==4.2.2",
+    "django-cors-headers==4.0.0",
+    "djangorestframework==3.14.0",
+    "future==0.18.3",
+    "gunicorn==20.1.0",
+    "pytz==2023.3",
+    "serializers==0.2.4",
+    "sqlparse==0.4.4",
+    "typing-extensions==4.6.3",
+]
